@@ -4,8 +4,6 @@ This is a simple lipgloss implementation of a TUI animation
 
 I pretend to work alot with TUI's in this course, CLI's TUI's, MCPS, terminals are becoming more and more important as we give more agency to AI agents
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
 [Software Demo Video] ON RUBRIC COMMENTS
 
 # Development Environment
