@@ -74,7 +74,7 @@ func (m model) View() string {
 	for position, letter := range message[:lettersToShow] {
 		letterStyle := lipgloss.NewStyle().
 			Bold(true).
-			Foreground(shadeOfGray(position, m.frame))
+			Foreground(shimmerShadeOfGray(position, m.frame))
 		text.WriteString(letterStyle.Render(string(letter)))
 	}
 
@@ -83,7 +83,7 @@ func (m model) View() string {
 }
 
 // gray shimmer effect
-func shadeOfGray(position, frame int) lipgloss.Color {
+func shimmerShadeOfGray(position, frame int) lipgloss.Color {
 	wave := math.Sin(float64(position)*0.5 - float64(frame)*0.2)
 	brightness := 128 + int(127*(wave+1)/2)
 	channel := fmt.Sprintf("%02x", brightness)
