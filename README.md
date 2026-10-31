@@ -17,3 +17,7 @@ I used Go programming language for this project for it's simple syntax and "no m
 # Useful Websites
 
 * [Lipgloss Documentation](https://pkg.go.dev/github.com/charmbracelet/lipgloss)
+
+# How to Run
+
+go run .
