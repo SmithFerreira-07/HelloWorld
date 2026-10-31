@@ -63,7 +63,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	return m, nil
 }
 
-// View
+// View render current frame
 func (m model) View() string {
 	lettersToShow := m.frame / framesPerLetter
 	if lettersToShow > len(message) {
