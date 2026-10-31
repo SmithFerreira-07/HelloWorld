@@ -10,7 +10,7 @@ I pretend to work alot with TUI's in this course, CLI's TUI's, MCPS, terminals a
 
 # Development Environment
 
-I used lipgloss package for the terminal animations and colors
+I used lipgloss and bubbletea package for the terminal animations and colors
 
 I used Go programming language for this project for it's simple syntax and "no magic" philosophy, explicitness in code is becoming more and more important as agents write more code.
 

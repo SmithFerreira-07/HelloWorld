@@ -15,13 +15,14 @@ const (
 	message         = "Hello, World!"
 	framesPerSecond = 30
 	framesPerLetter = 2
+	sidePadding     = 12
 )
 
 var boxStyle = lipgloss.NewStyle().
 	Border(lipgloss.RoundedBorder()).
 	BorderForeground(lipgloss.Color("#666666")).
-	Padding(3, 12).
-	Width(len(message) + 24)
+	Padding(3, sidePadding).
+	Width(len(message) + 2*sidePadding)
 
 type tickMsg time.Time
 
